@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import styled from 'styled-components';
-import './App.css'; // Any global styling should go here
+import './App.css';
 
 const Container = styled.div`
   display: flex;
@@ -26,18 +26,10 @@ function App() {
         <Header />
         <Content>
           <Switch>
-            <Route path="/portfolio">
-              <Portfolio />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/resume">
-              <Resume />
-            </Route>
-            <Route path="/">
-              <AboutMe />
-            </Route>
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/" component={AboutMe} />
           </Switch>
         </Content>
         <Footer />

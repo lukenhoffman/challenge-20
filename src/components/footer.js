@@ -30,7 +30,7 @@ function Footer() {
   return (
     <FooterContainer>
       <SocialLinks>
-        <a href="https://github.com/your_username" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/lukenhoffman" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </a>
         <a href="https://linkedin.com/in/your_username" target="_blank" rel="noopener noreferrer">

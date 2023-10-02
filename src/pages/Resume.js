@@ -45,7 +45,7 @@ function Resume() {
 
   return (
     <ResumeContainer>
-      <ResumeLink href="/path-to-your-resume.pdf" download="Your-Name-Resume.pdf">
+      <ResumeLink href="/path-to-your-resume.pdf" download="LukenHoffman-Resume.pdf">
         Download My Resume
       </ResumeLink>
       <h2>My Proficiencies</h2>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import avatar from '../assets/avatar.png'; // Replace with your avatar or photo
+import avatar from './avatar.JPG'; // Replace with your avatar or photo
 
 const AboutMeContainer = styled.section`
   padding: 2rem;
@@ -30,8 +30,8 @@ function AboutMe() {
     <AboutMeContainer>
       <Image src={avatar} alt="Developer Avatar" />
       <Bio>
-        Hello! I’m [Your Name], a passionate and enthusiastic web developer specializing in creating amazing
-        experiences on the web. With a profound understanding of frontend technologies, I have contributed to the
+        Hello! I’m [Luken Hoffman], a passionate and enthusiastic web developer specializing in creating amazing
+        experiences on the web. With a profound understanding of frontend and backend technologies, I have contributed to the
         development of multiple single-page applications utilizing React.js, JavaScript, HTML, CSS, and a variety
         of libraries and frameworks.
 

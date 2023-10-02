@@ -17,6 +17,42 @@ const projects = [
     deployedUrl: 'https://project-one.com',
     repoUrl: 'https://github.com/username/project-one',
   },
+  {
+    title: 'Project One',
+    imageUrl: '/path-to-image-1',
+    deployedUrl: 'https://project-one.com',
+    repoUrl: 'https://github.com/username/project-one',
+  },
+  {
+    title: 'Project One',
+    imageUrl: '/path-to-image-1',
+    deployedUrl: 'https://project-one.com',
+    repoUrl: 'https://github.com/username/project-one',
+  },
+  {
+    title: 'Project One',
+    imageUrl: '/path-to-image-1',
+    deployedUrl: 'https://project-one.com',
+    repoUrl: 'https://github.com/username/project-one',
+  },
+  {
+    title: 'Project One',
+    imageUrl: '/path-to-image-1',
+    deployedUrl: 'https://project-one.com',
+    repoUrl: 'https://github.com/username/project-one',
+  },
+  {
+    title: 'Project One',
+    imageUrl: '/path-to-image-1',
+    deployedUrl: 'https://project-one.com',
+    repoUrl: 'https://github.com/username/project-one',
+  },
+  {
+    title: 'Project One',
+    imageUrl: '/path-to-image-1',
+    deployedUrl: 'https://project-one.com',
+    repoUrl: 'https://github.com/username/project-one',
+  },
   // ... add other projects
 ];
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
+import Navigation from './Navigation'; // Importing the Navigation component
 
 const HeaderContainer = styled.header`
   display: flex;
@@ -17,47 +17,11 @@ const DeveloperName = styled.h1`
   font-size: 2rem;
 `;
 
-const Navigation = styled.nav`
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
-  }
-
-  li {
-    display: inline;
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-
-    &.active {
-      border-bottom: 2px solid #61dafb;
-    }
-
-    &:hover {
-      color: #61dafb;
-    }
-  }
-`;
-
 function Header() {
   return (
     <HeaderContainer>
-      <DeveloperName>John Doe</DeveloperName>
-      <Navigation>
-        <ul>
-          <li><NavLink to="/about" activeClassName="active">About Me</NavLink></li>
-          <li><NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink></li>
-          <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
-          <li><NavLink to="/resume" activeClassName="active">Resume</NavLink></li>
-        </ul>
-      </Navigation>
+      <DeveloperName>Luken Hoffman</DeveloperName>
+      <Navigation /> {/* Using the Navigation component */}
     </HeaderContainer>
   );
 }
